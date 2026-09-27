@@ -20,7 +20,7 @@ export const siteContent = {
     { name: "תומר עוזר", role: "תלמיד/ה — אחראי אלקטרוניקה", photo: "/team/tomer.jpg", link: "https://oshwlab.com/tomer_ozer/works"},
     { name: "נועם רון", role: "תלמיד/ה — אחראי תוכנה", photo: "/team/noam.jpg", link: "https://github.com/NoamRon1"},
     { name: "איתמר חוטר ישי", role: "תלמיד/ה — אחראי מכניקה", photo: "/team/itamar.jpg"},
-    { name: "יואב אהרוני", role: "תלמיד/ה — קפטן הנבחרת", photo: "/team/yoav.jpg"},
+    { name: "יואב אהרוני", role: "תלמיד/ה — קפטן הנבחרת", photo: "/team/yoav.jpeg"},
     { name: "גל ארבל", role: "מנטור/ית ומורה מלווה", photo: "/team/gal.jpeg"},
   ] as TeamMember[],
 
@@ -38,7 +38,7 @@ export const siteContent = {
     phone: "+972 54 804 1428",
     socials: [
       {label: "Linkedin", href: "https://www.linkedin.com/in/super-strika-8b6349437/"},
-      {label: "Whatsapp", href: "http://wa.me/972548041428"}
+      {label: "Whatsapp", href: "http://wa.me/972548041428"},
       // { label: "Instagram", href: "https://instagram.com/..." },
     ],
   } as ContactInfo,
