@@ -21,7 +21,7 @@ export const siteContent = {
     { name: "נועם רון", role: "תלמיד/ה — אחראי תוכנה", photo: "/team/noam.jpg", link: "https://github.com/NoamRon1"},
     { name: "איתמר חוטר ישי", role: "תלמיד/ה — אחראי מכניקה", photo: "/team/itamar.jpg"},
     { name: "יואב אהרוני", role: "תלמיד/ה — קפטן הנבחרת", photo: "/team/yoav.jpeg"},
-    { name: "גל ארבל", role: "מנטור/ית ומורה מלווה", photo: "/team/gal.jpeg"},
+    { name: "גל ארבל", role: "מנטור/ית ומורה מלווה", photo: "/team/gal.jpeg", link: "https://github.com/galarb"},
   ] as TeamMember[],
 
   // Logos are fetched automatically from each site; add "logo" (path under /public) to override with your own.
