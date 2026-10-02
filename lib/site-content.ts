@@ -17,11 +17,11 @@ export const siteContent = {
 
   // Add a photo via "photo" (path under /public) and a github/linkedin url via "link" for each member.
   team: [
-    { name: "תומר עוזר", role: "תלמיד/ה — אחראי אלקטרוניקה", photo: "/team/tomer.jpg", link: "https://oshwlab.com/tomer_ozer/works"},
-    { name: "נועם רון", role: "תלמיד/ה — אחראי תוכנה", photo: "/team/noam.jpg", link: "https://github.com/NoamRon1"},
-    { name: "איתמר חוטר ישי", role: "תלמיד/ה — אחראי מכניקה", photo: "/team/itamar.jpeg"},
-    { name: "יואב אהרוני", role: "תלמיד/ה — קפטן הנבחרת", photo: "/team/yoav.jpeg"},
-    { name: "גל ארבל", role: "מנטור/ית ומורה מלווה", photo: "/team/gal.jpeg", link: "https://github.com/galarb"},
+    { name: "תומר עוזר", role: "תלמיד — אחראי אלקטרוניקה", photo: "/team/tomer.jpg", link: "https://oshwlab.com/tomer_ozer/works"},
+    { name: "נועם רון", role: "תלמיד — אחראי תוכנה", photo: "/team/noam.jpg", link: "https://github.com/NoamRon1"},
+    { name: "איתמר חוטר ישי", role: "תלמיד — אחראי מכניקה", photo: "/team/itamar.jpeg"},
+    { name: "יואב אהרוני", role: "תלמיד — קפטן הנבחרת", photo: "/team/yoav.jpeg"},
+    { name: "גל ארבל", role: "מנטור ומורה מלווה", photo: "/team/gal.jpeg", link: "https://github.com/galarb"},
   ] as TeamMember[],
 
   // Logos are fetched automatically from each site; add "logo" (path under /public) to override with your own.
@@ -30,7 +30,8 @@ export const siteContent = {
     { label: "OSHW Lab", href: "https://oshwlab.com/tomer_ozer/works", description: "הכרטיסים האלקטרונים שבנינו" },
     { label: "אתר בית הספר", href: "https://gvanim-school.co.il/", description: "בית הספר גוונים - מ.א מנשה" },
     { label: "פוסטר התחרות", href: "https://canva.link/uu3wjxl87jdu86g", description: "פוסטר התחרות" },
-    { label: "Youtube", href: "https://www.youtube.com/@superstrika7046", description: "לסרטונים נוספים"}
+    { label: "Youtube", href: "https://www.youtube.com/@superstrika7046", description: "לסרטונים נוספים"},
+    { label: "Onshape", href: "https://gvanim.onshape.com/documents/71c83b66bff336170b144128/w/b9e60f4a857159b4823a7a85/e/22dfdf768e1fe33d63296064?renderMode=0&uiState=6abfa1546909f7bf51279f6e", description: "3D CAD"}
   ] as SiteLink[],
 
   contact: {
