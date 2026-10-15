@@ -1,16 +1,7 @@
 services:
-  caddy:
-    image: caddy:2-alpine
-    ports: ["80:80", "443:443"]
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
-      - caddy_data:/data
-      - caddy_config:/config
-    depends_on:
-      - app
   app:
     image: ghcr.io/superstrika/superstrika-web:latest
-    expose: ["3000"]
+    ports: ["127.0.0.1:3000:3000"]
     environment:
       DATABASE_URL: postgresql://fundledger:${POSTGRES_PASSWORD:-change-me}@db:5432/fundledger?schema=public
       AUTH_SECRET: ${AUTH_SECRET:-replace-me-before-production}
@@ -39,5 +30,3 @@ services:
       retries: 15
 volumes:
   postgres_data:
-  caddy_data:
-  caddy_config:
