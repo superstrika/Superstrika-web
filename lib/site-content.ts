@@ -26,7 +26,7 @@ export const siteContent = {
 
   // Logos are fetched automatically from each site; add "logo" (path under /public) to override with your own.
   links: [
-    { label: "GitHub", href: "https://github.com/Superstrika/Superstrika-new", description: "קוד הרובוט" },
+    { label: "GitHub", href: "https://github.com/Superstrika/Superstrika", description: "קוד הרובוט" },
     { label: "OSHW Lab", href: "https://oshwlab.com/tomer_ozer/works", description: "הכרטיסים האלקטרונים שבנינו" },
     { label: "אתר בית הספר", href: "https://gvanim-school.co.il/", description: "בית הספר גוונים - מ.א מנשה" },
     { label: "פוסטר התחרות", href: "https://canva.link/uu3wjxl87jdu86g", description: "פוסטר התחרות" },
